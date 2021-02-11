@@ -1,6 +1,5 @@
-import json
-
-items = json.loads('[{"id":1, "text":"Item 1"}, {"id":2, "text":"Item 2"}]')
-
-for item in items:
-    print(item['text'])
+name = input('What is your name? ')
+color = input('What is your favorite color? ')
+print('Hi ' + name + '. ' + name + ' likes the color ' + color)
+print(f"Hi {name}. {name} likes the color {color}")
+# print(({},{} format(name, color))
