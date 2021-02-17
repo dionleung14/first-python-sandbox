@@ -30,3 +30,4 @@ for digit in ph_number:
   # word_phone += num_to_text.get(digit, "!") +  " "
 
 print(word_phone)
+
